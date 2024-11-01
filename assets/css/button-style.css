@@ -1,0 +1,53 @@
+/**
+ * CSS for the wrauterwp | Being Social plugin
+ */
+#wrauterwp-wrapper{
+    margin: 20px 0;
+}
+#wrauterwp-wrapper a#wrauterwp-button{
+    color: #FFF;
+    background: #b18787;
+    border-radius: 5px;
+    box-shadow: 0 5px 0 0 #091e57;
+    padding: 10px 20px 10px 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+#wrauterwp-wrapper a#wrauterwp-button img{
+    box-shadow: none;
+    width: 30px;
+    padding-right: 10px;
+    box-sizing: content-box;
+    display: inline-block;
+    position: relative;
+    bottom: -10px;
+}
+.content-share__item {
+    width: 48px;
+    height: 48px;
+    line-height: 0;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.content-share, .content-share__icon, .content-share__item {
+    position: relative;
+    display: block;
+}
+.content-share__icon, .content-share__item {
+    border-radius: 100%;
+    background-clip: padding-box;
+}
+.wrauterwp-share{
+	background-color: #00968800!important;
+    width: 248px;
+    height: 38px;
+    border: 0px;
+    line-height: 0;
+    margin-top: -8px;
+    cursor: pointer;
+    margin-left: -7px;
+}
+
